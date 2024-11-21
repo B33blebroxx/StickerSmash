@@ -9,12 +9,12 @@ type Props = {
 
 export default function EmojiList({ onSelect, onCloseModal }: Props) {
   const [emoji] = useState<ImageSource[]>([
-    require("../assets/images/emoji/1.png"),
-    require("../assets/images/emoji/2.png"),
-    require("../assets/images/emoji/3.png"),
-    require("../assets/images/emoji/4.png"),
-    require("../assets/images/emoji/5.png"),
-    require("../assets/images/emoji/6.png"),
+    require("../assets/images/emoji1.png"),
+    require("../assets/images/emoji2.png"),
+    require("../assets/images/emoji3.png"),
+    require("../assets/images/emoji4.png"),
+    require("../assets/images/emoji5.png"),
+    require("../assets/images/emoji6.png"),
   ]);
 
   return (
